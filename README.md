@@ -27,4 +27,4 @@ A desktop application built with **JavaFX** and **MySQL** to help users find blo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/blood-donor-finder.git
+   git clone https://github.com/HarounBR/Blood-Donor-Finder-App.git
