@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.miniprojet.AuthController">
+    <Label text="Register" styleClass="title" />
+    <TextField fx:id="nameField" promptText="Full Name" />
+    <TextField fx:id="emailField" promptText="Email" />
+    <PasswordField fx:id="passwordField" promptText="Password" />
+    <TextField fx:id="bloodField" promptText="Blood Type (e.g., O+)" />
+    <TextField fx:id="locationField" promptText="Location" />
+    <DatePicker fx:id="lastDonationPicker" promptText="Last Donation Date" />
+    <Button text="Register" onAction="#register" />
+    <Hyperlink text="Back to login" onAction="#goToLogin" />
+    <Label fx:id="messageLabel" />
+</VBox>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.miniprojet.SearchController">
+    <Label text="Search for Donors" styleClass="title" />
+    <TextField fx:id="bloodSearchField" promptText="Blood Type (e.g., A+)" />
+    <TextField fx:id="locationSearchField" promptText="Location" />
+    <Button text="Search" onAction="#searchDonors" />
+    <ListView fx:id="resultList" prefHeight="200" prefWidth="300"/>
+</VBox>
